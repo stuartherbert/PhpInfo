@@ -5,14 +5,14 @@
     http://pear.php.net/dtd/package-2.0.xsd">
   <name>${project.name}</name>
   <channel>${project.channel}</channel>
-  <summary>Summary goes here</summary>
+  <summary>A simple PHP component to demonstrate what happens when you ship web pages inside a PHP component.</summary>
   <description>
-    Description goes here
+    A simple PHP component to demonstrate what happens when you ship web pages inside a PHP component.
   </description>
   <lead>
-    <name>Your name</name>
-    <user>Anything goes here</user>
-    <email>Your email address</email>
+    <name>Stuart Herbert</name>
+    <user>stuherbert</user>
+    <email>stuart@stuartherbert.com</email>
     <active>yes</active>
   </lead>
   <date>${build.date}</date>
@@ -25,7 +25,7 @@
     <release>stable</release>
     <api>stable</api>
   </stability>
-  <license>All rights reserved.</license>
+  <license>New BSD license.</license>
   <notes>
     No notes.
   </notes>
@@ -42,12 +42,6 @@ ${contents}
       <pearinstaller>
         <min>1.6.0</min>
       </pearinstaller>
-      <package>
-        <name>Autoloader</name>
-        <channel>pear.gradwell.com</channel>
-        <min>2.0.0</min>
-	      <max>2.999.9999</max>
-      </package>
     </required>
   </dependencies>
   <phprelease />
@@ -61,8 +55,8 @@ ${contents}
         <release>stable</release>
         <api>stable</api>
       </stability>
-      <date>Your release date</date>
-      <license>All rights reserved</license>
+      <date>2011-08-07</date>
+      <license>New BSD license</license>
       <notes>
       </notes>
     </release>
